@@ -1,0 +1,42 @@
+
+/* Background Colors { */
+    .bg-purple {
+        background-color: #aa66cc !important;
+    }
+
+    .bg-white {
+        background-color: white !important;
+    }
+/* } Background Colors */
+
+.carousel-item {
+    height: 20vh;
+}
+
+.carousel .banner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 576px) {
+
+    nav div.navbar-collapse {
+        position: relative;
+    }
+
+    nav ul.navbar-nav {
+        position: absolute;
+        z-index: 1;
+    }
+
+    nav li.nav-item {
+        width: 130px;
+        margin-left: auto;
+    }
+
+    nav li.nav-item:hover {
+        background-color: gainsboro;
+    }
+}
